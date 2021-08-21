@@ -1,0 +1,31 @@
+.App{
+  margin: 30px;
+}
+.upload-container{
+  border: 2px dashed #ccc;
+  padding: 15px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+#fileUpload{
+  display: none;
+}
+.file-upload{
+  border: 1px solid #0f0;
+  background:#0f0;
+}
+.upload-btn{
+  background: #00f;
+  border: 1px solid #00f;
+}
+.upload-btn,.file-upload{
+  padding: 15px;
+  margin: 0 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.file-details{
+  margin: 15px 0;
+}
